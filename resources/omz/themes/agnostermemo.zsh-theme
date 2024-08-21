@@ -353,7 +353,7 @@ prompt_virtualenv() {
 }
 
 prompt_time() {
-  prompt_rsegment blue white " %{$fg_bold[white]%}%D{%a %e %b - %H:%M}%{$fg_no_bold[white]%}"
+  prompt_rsegment blue white " %{$fg_bold[white]%}%D{%a %e %b - %H:%M}%{$fg_no_bold[white]%} "
 }
 
 # Status:
