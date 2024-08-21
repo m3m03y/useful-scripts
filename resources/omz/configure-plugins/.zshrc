@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="nanotech"
+ZSH_THEME="nanotech-custom"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# FZF settings
+# FZF Settings
 export FZF_BASE=/home/frog/.fzf/bin/fzf
 export FZF_DEFAULT_COMMAND=fd
 DISABLE_FZF_AUTO_COMPLETION="false"
@@ -116,7 +116,7 @@ DISABLE_FZF_KEY_BINDINGS="true"
 # Setup zoxide
 eval "$(zoxide init zsh)"
 
-# Replace base tools with aliases
+# Replace base tools
 alias cat="bat"
 alias z="zoxide"
 alias zi="zoxidei"
